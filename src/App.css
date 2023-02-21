@@ -1,0 +1,119 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  border-radius: 15px;
+}
+
+.nav {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: blue;
+  width: 37%;
+  border-radius: 1rem;
+  margin: 1rem;
+  flex-direction: column;
+  padding: 4rem 3rem;
+  gap: 2rem;
+  background-image: url("./assets/bg-sidebar-desktop.svg");
+  background-size: cover;
+}
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 4rem 4rem 1rem 4rem;
+  font-weight: bold;
+  color: hsl(213, 96%, 18%);
+}
+.head-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.personalInfo .desc {
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(231, 11%, 63%);
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 0;
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+}
+
+.buttom-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-container {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+input {
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightblue;
+}
+.input-item {
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-box {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+.nav-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.det-1 {
+  color: rgba(255, 255, 255, 0.879);
+  font-weight: 300;
+}
+
+.det-2 {
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 15px;
+}
