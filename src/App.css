@@ -52,11 +52,11 @@
   color: hsl(231, 11%, 63%);
 }
 
-button {
+.next {
   padding: 1rem 2rem;
   border-radius: 1rem;
   border: 0;
-  background-color: blue;
+  background-color: #03295a;
   color: white;
   font-size: 1rem;
 }
@@ -116,4 +116,202 @@ input {
   color: aliceblue;
   font-weight: 600;
   font-size: 15px;
+}
+
+.Plan-title {
+  display: flex;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.container-Plan {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 4rem 4rem 1rem 4rem;
+  color: hsl(213, 96%, 18%);
+}
+.Plan-subtitle {
+  color: hsl(231, 11%, 63%);
+  font-weight: 300;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Plan-design {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  width: 15vh;
+  height: 18vh;
+  justify-content: center;
+  border: 1px solid hsl(231, 11%, 63%);
+  border-radius: 1rem;
+}
+.Plan-Content2 {
+  font-weight: 300;
+  color: hsl(231, 11%, 63%);
+}
+
+.Select-Plans {
+  display: flex;
+  gap: 2rem;
+  padding-top: 60px;
+}
+
+img {
+  width: 3.5vh;
+}
+
+.Plan-design {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.Plan-Main-Contant {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.89rem;
+}
+
+.Plan-Timing {
+  display: flex;
+
+  background-color: #f9f9ff;
+  padding: 15px;
+  border: none;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 0.5rem;
+  font-weight: 400;
+}
+
+.Main-Plan {
+  display: flex;
+  gap: 45px;
+  flex-direction: column;
+}
+
+.Main-Down {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.Back {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: #03295a;
+}
+
+.back-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Plan-design:hover {
+  border: 1px solid #03295a;
+}
+
+.selected-plan {
+  background-color: #f9f9ff;
+}
+
+.Circle-Colour{
+  background-color: #f9f9ff;
+  color: #03295a;
+}
+
+
+
+.Container-Pick{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 4rem 4rem 1rem 4rem;
+  color: hsl(213, 96%, 18%);
+  
+}
+
+.Topic{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+
+}
+
+.PicTitle{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.SubTitle{
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  color: hsl(231, 11%, 63%);
+}
+
+.Pick-Box{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items:center ;
+  border: 1px solid blue;
+  border-radius: 0.5rem;
+  height: fit-content;
+}
+
+.Pick-align{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.Box-title{
+  display: flex;
+  font-weight: 500;
+  font-size: 1rem
+}
+
+.Box-Sub{
+  display: flex;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color:hsl(231, 11%, 63%);
+}
+
+.Box-Content{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.custom{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 1.4rem;
+}
+
+.Pick-Price{
+  color: blue;
+  font-size: 0.8rem;
+}
+
+.Pick-Colour{
+  background-color: blue;
 }

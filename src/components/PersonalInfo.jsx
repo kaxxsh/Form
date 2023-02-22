@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 
-function PersonalInfo() {
+function PersonalInfo({ Nav, setNav }) {
   const [Name, setName] = useState();
   const [Email, setEmail] = useState();
   const [Phone, setPhone] = useState();
@@ -36,7 +36,9 @@ function PersonalInfo() {
         </div>
       </div>
       <div className="buttom-container">
-        <button>Next Step</button>
+        <button className="next" onClick={() => setNav(2)}>
+          Next Step
+        </button>
       </div>
     </div>
   );
